@@ -1,0 +1,18 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	//Cálculo exponencial de número.
+	var numqualquer int
+
+	fmt.Print("digite um número qualquer:")
+	fmt.Scanln(&numqualquer)
+
+	//Potencial do número.
+	var Cálculodobro = numqualquer * numqualquer
+	var Cálculotriplo = numqualquer * numqualquer * numqualquer
+	var Cálculoquadruplo = numqualquer * numqualquer * numqualquer * numqualquer
+	fmt.Println("O dobro do número é: ", Cálculodobro, "O triplo do número é: ", Cálculotriplo, "O quadruplo do número é: ", Cálculoquadruplo)
+}
