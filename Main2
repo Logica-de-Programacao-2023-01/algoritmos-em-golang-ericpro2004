@@ -11,8 +11,8 @@ func main() {
 	fmt.Scanln(&numqualquer)
 
 	//Potencial do número.
-	var Cálculodobro = numqualquer * numqualquer
-	var Cálculotriplo = numqualquer * numqualquer * numqualquer
-	var Cálculoquadruplo = numqualquer * numqualquer * numqualquer * numqualquer
+	var Cálculodobro = numqualquer * 2
+	var Cálculotriplo = numqualquer * 3
+	var Cálculoquadruplo = numqualquer * 4
 	fmt.Println("O dobro do número é: ", Cálculodobro, "O triplo do número é: ", Cálculotriplo, "O quadruplo do número é: ", Cálculoquadruplo)
 }
