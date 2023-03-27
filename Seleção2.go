@@ -16,10 +16,10 @@ func main() {
 	fmt.Scanln(&num3)
 
 	if num1 < num2 && num1 < num3 {
-		fmt.Printf("%d é o menor número entre os três números: ", num1)
+		fmt.Printf("%d é o menor número entre os três números.", num1)
 	} else if num2 < num1 && num2 < num1 {
-		fmt.Printf("%d é o menor número entre os três números: ", num2)
+		fmt.Printf("%d é o menor número entre os três números.", num2)
 	} else {
-		fmt.Printf("%d é o menor número entre os três números: ", num3)
+		fmt.Printf("%d é o menor número entre os três números.", num3)
 	}
 }
