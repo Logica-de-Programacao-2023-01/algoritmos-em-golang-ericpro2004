@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func main() {
-	//Ordem dos números pares de 0 a 20.
-	fmt.Println("A ordem crescente dos números é: ")
+	//Números pares de 0 a 20.
+	fmt.Println("Os números são: ")
 	for i := 0; i < 21; i++ {
 		if i == 1 {
 			continue
