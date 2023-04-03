@@ -1,0 +1,14 @@
+package main
+
+import "fmt"
+
+func main() {
+	//Ordem dos números de 1 a 10.
+	fmt.Println("A ordem crescente dos números é: ")
+	for i := 0; i < 21; i++ {
+		if i %2 == 0 {
+			continue
+		}
+		fmt.Println(i)
+	}
+}
