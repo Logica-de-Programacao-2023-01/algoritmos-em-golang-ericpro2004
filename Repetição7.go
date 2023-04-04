@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	//fizz ao invés de múltiplos de 3 no conjunto de 1 a 100.
+	//fizz e buzz ao invés de múltiplos de 3 e de 5 no conjunto de 1 a 100.
 
 	fmt.Println("Segue lista de números múltiplos do selecionado na tabuada: ")
 	for i := 1; i <= 101; i++ {
