@@ -4,6 +4,8 @@ import "fmt"
 
 func main() {
 
+//Aumento de salário dos funcionários em 10% ou 5%.
+
 	var s float64
 	var ns float64
 	fmt.Println("Digite o salário do funcionário:")
