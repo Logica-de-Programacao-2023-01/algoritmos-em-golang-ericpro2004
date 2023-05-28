@@ -6,6 +6,9 @@ import (
 )
 
 func main() {
+	
+//Três números em ordem crescente.
+	
 	var num1, num2, num3 float64
 
 	fmt.Println("Digite o primeiro número: ")
