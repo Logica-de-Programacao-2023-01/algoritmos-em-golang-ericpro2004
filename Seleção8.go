@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func main() {
-
+	
+//Dias da semana baseados em números. 
+	
 	var num int
 	var diadaSemana string
 	fmt.Println("Digite um número (inteiro) entre 1 e 7: ")
