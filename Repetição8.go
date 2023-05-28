@@ -8,10 +8,9 @@ func main() {
 	fmt.Println("Digite um número")
 	fmt.Scanln(&numE)
 
-	fmt.Println("Segue lista de divisores do número selecionado: ")
 	for i := 1; i <= i; i++ {
 		if numE%i == 0 {
-			fmt.Println(i, " ")
+			fmt.Println("Segue lista de divisores do número selecionado: ", i)
 		}
 	}
 }
